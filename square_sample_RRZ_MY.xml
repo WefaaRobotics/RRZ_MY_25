@@ -1,0 +1,399 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="initialize_smorphi" id=".t%kJ_^Iu8U`w/?wjJo=" x="-634" y="-1091">
+    <next>
+      <block type="initialize_huskylens" id="oT#mNdzt@D!mt{(AOH:#">
+        <next>
+          <block type="procedures_callnoreturn" id="wUzJCDod9|r=q.H!dt^s">
+            <mutation name="sensor_initialisation"></mutation>
+            <next>
+              <block type="procedures_callnoreturn" id="nJ^P:3bhE8sA{a!G}d7s">
+                <mutation name="movements"></mutation>
+                <next>
+                  <block type="LED_initialise" id="~yMwY!RQF0+8=et-z/lK">
+                    <next>
+                      <block type="controls_if" id="MmS*PDlI/h^V`+_T)P4|">
+                        <mutation elseif="7" else="1"></mutation>
+                        <value name="IF0">
+                          <block type="logic_compare" id=":dS-S]V-9sV7%BfTp]!r">
+                            <field name="OP">EQ</field>
+                            <value name="A">
+                              <block type="variables_get" id="kHC=2axOc23m_kdi:OL*">
+                                <field name="VAR">x</field>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <block type="math_number" id="wB8f%B6Zmoh}V|U.}kZ3">
+                                <field name="NUM">1</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <value name="IF1">
+                          <block type="logic_compare" id="Ut(KUH3O{J~3G6/}f3Ip">
+                            <field name="OP">EQ</field>
+                            <value name="A">
+                              <block type="variables_get" id="(6a=0q|HMvirnM:9caqj">
+                                <field name="VAR">x</field>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <block type="math_number" id="YJvQgj/}!%@vNRRQ1ooL">
+                                <field name="NUM">2</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <value name="IF2">
+                          <block type="logic_compare" id="@vpegF/VYjFm[oEWsd[b">
+                            <field name="OP">EQ</field>
+                            <value name="A">
+                              <block type="variables_get" id="}E[G_N+{v#X~@;5xW,^L">
+                                <field name="VAR">x</field>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <block type="math_number" id="BWNg`1O44w22]E.IMbtL">
+                                <field name="NUM">3</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <value name="IF3">
+                          <block type="logic_compare" id="oBXWBGh5^(UF[E79]f1[">
+                            <field name="OP">EQ</field>
+                            <value name="A">
+                              <block type="variables_get" id="rpwe_bPL`TR6.q4W-LrT">
+                                <field name="VAR">x</field>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <block type="math_number" id="*zV}odJdT0_IClvUoRo-">
+                                <field name="NUM">4</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <value name="IF4">
+                          <block type="logic_compare" id="{,;30.c`1`=7QE4ASapV">
+                            <field name="OP">EQ</field>
+                            <value name="A">
+                              <block type="variables_get" id="M{8AXv~,l2KClX0c5?)o">
+                                <field name="VAR">x</field>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <block type="math_number" id="h+Iex+mA6k-@1MN_=i?z">
+                                <field name="NUM">5</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <value name="IF5">
+                          <block type="logic_compare" id="Yk}juO`DNnLiDJ].;(h%">
+                            <field name="OP">EQ</field>
+                            <value name="A">
+                              <block type="variables_get" id="Wo?~`_cLBCN%xR,x/mE=">
+                                <field name="VAR">x</field>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <block type="math_number" id="c-,7T*]h?^(~x;jS|d6c">
+                                <field name="NUM">6</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <value name="IF6">
+                          <block type="logic_compare" id="F,AmX(w//c=~Zk)7-*%Z">
+                            <field name="OP">EQ</field>
+                            <value name="A">
+                              <block type="variables_get" id="UNk}_Q.!gmL^+?KWkn4Q">
+                                <field name="VAR">x</field>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <block type="math_number" id="^6!X1=7[6?f(OC=16D}[">
+                                <field name="NUM">7</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <value name="IF7">
+                          <block type="logic_compare" id="05)^tNjA=+BS^#vnns_?">
+                            <field name="OP">EQ</field>
+                            <value name="A">
+                              <block type="variables_get" id="H@~_g?pPajiruK7B}N{B">
+                                <field name="VAR">x</field>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <block type="math_number" id="ux]^24qH3)I3O{:5RI2#">
+                                <field name="NUM">8</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <statement name="ELSE">
+                          <block type="procedures_callnoreturn" id="gF=7`g:B^w#n1C5*v{i`">
+                            <mutation name="movements"></mutation>
+                          </block>
+                        </statement>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+  <block type="procedures_defnoreturn" id="W2wW*-VQ9BS.)Za485./" x="-492" y="-113">
+    <field name="NAME">movements</field>
+    <comment pinned="false" h="80" w="160">Describe this function...</comment>
+    <statement name="STACK">
+      <block type="controls_if" id="E?Cs%|Ian(b#o7RLR%9;">
+        <mutation elseif="1" else="1"></mutation>
+        <value name="IF0">
+          <block type="logic_operation" id="SMdtagG]D4D-(+_RTQF)">
+            <field name="OP">AND</field>
+            <value name="A">
+              <block type="logic_compare" id="F[CrrBqK-ME{B_3Vg{;=">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="variables_get" id="5QY):K%PvP~c`BRcb}I,">
+                    <field name="VAR">bottom_left_sensor_status</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="wt4;l~)v.)o+yeqOc.+a">
+                    <field name="NUM">1</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="logic_compare" id="{/}AbRX]Pyo:VGmO/J4I">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="variables_get" id="Qt}%+PY2ton{NoKJ6Sch">
+                    <field name="VAR">bottom_right_sensor_status</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="y6NQApH*MDWC!?G.*!Fr">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <value name="IF1">
+          <block type="logic_operation" id="dGOLw`6OA*cSYrH]c45K">
+            <field name="OP">AND</field>
+            <value name="A">
+              <block type="logic_compare" id="N~d]NBGg4|Tsr3z:^h,a">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="variables_get" id="#80jO)1Aj5YJ7;JUMuC7">
+                    <field name="VAR">bottom_left_sensor_status</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="X{rma`[P~[;*BQdHg`e@">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="logic_compare" id="H5.M31tipM-Z+rR,;e+|">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="variables_get" id="}nGpcc8])#qx._@z:A!}">
+                    <field name="VAR">bottom_right_sensor_status</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="vTE=R((Yw|[N`qUGOBsg">
+                    <field name="NUM">1</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="ELSE">
+          <block type="robot_motion" id="Z`G:1S;!-,73WTc(TkC`">
+            <field name="NAME">MoveForward</field>
+            <value name="NAME">
+              <block type="math_number" id="SW;(OWJ*^PztYUnIIR|2">
+                <field name="NUM">40</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="Zc:Q2Fj;Z/24XQw1p.62" x="-474" y="682">
+    <field name="NAME">sensor_initialisation</field>
+    <comment pinned="false" h="80" w="160">Describe this function...</comment>
+    <statement name="STACK">
+      <block type="controls_if" id="tNh?DQ)lZuV+xFd59Z.a">
+        <value name="IF0">
+          <block type="logic_compare" id="OFq#):Xk0C)w0a3JT]vt">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="shape_status" id="_TQ#)g]ub*j;+~M;g}4l"></block>
+            </value>
+            <value name="B">
+              <block type="available_shapes" id="b]}?NH8!xr1AHtJNQ3-U">
+                <field name="NAME">'i'</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="bottom_left_ir" id=":8h4o;%)nb^xXn,Ho@,?">
+            <field name="module_num">1</field>
+            <field name="status_num">0</field>
+            <next>
+              <block type="bottom_right_ir" id="%p^N{ZiInM}shu.J?fQ5">
+                <field name="module_num">1</field>
+                <field name="status_num">4</field>
+                <next>
+                  <block type="procedures_callnoreturn" id="(Mmi?lCgl,P~86%z[~h.">
+                    <mutation name="movements"></mutation>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="controls_if" id="w|Fg9,MGe{f,Au-,,}i(">
+            <value name="IF0">
+              <block type="logic_compare" id="5;{hd6aeovXIUKxp0vVB">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="shape_status" id="AgC45=.N+8eHaZ^SKI0u"></block>
+                </value>
+                <value name="B">
+                  <block type="available_shapes" id="z^327vFje]Oo#u-n=CST">
+                    <field name="NAME">'o'</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="bottom_left_ir" id="/|n1Rr_Tv2tX53~`D6?*">
+                <field name="module_num">1</field>
+                <field name="status_num">0</field>
+                <next>
+                  <block type="bottom_right_ir" id="fm(?R-WXi#re3Ws;9zxn">
+                    <field name="module_num">1</field>
+                    <field name="status_num">4</field>
+                    <next>
+                      <block type="procedures_callnoreturn" id="@xP:%YO,u#)2h#=_]WuP">
+                        <mutation name="movements"></mutation>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="{`KRK`,{Q?6:VN*_htm." x="-354" y="1230">
+    <field name="NAME">red_on</field>
+    <comment pinned="false" h="80" w="160">Describe this function...</comment>
+    <statement name="STACK">
+      <block type="RGB_color" id="*GLf9o#ELTF(+qg]-:We">
+        <field name="NAME">digitalWrite(25, HIGH);
+digitalWrite(26, LOW);
+digitalWrite(27, LOW);
+
+        
+        
+        
+        
+        </field>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="[uh4FiMsIQNtvq]U#VaW" x="-350" y="1307">
+    <field name="NAME">green_on</field>
+    <comment pinned="false" h="80" w="160">Describe this function...</comment>
+    <statement name="STACK">
+      <block type="RGB_color" id="K^cVx1?wiDE+grxRFV6z">
+        <field name="NAME">digitalWrite(25, LOW);
+digitalWrite(26, HIGH);
+digitalWrite(27, LOW);
+
+        
+        
+        
+        
+        
+        </field>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="J1^xEh{@vx@=hf!MhHB@" x="-349" y="1386">
+    <field name="NAME">blue_on</field>
+    <comment pinned="false" h="80" w="160">Describe this function...</comment>
+    <statement name="STACK">
+      <block type="RGB_color" id="TD;)R(}yS5P)vA0p;=w.">
+        <field name="NAME">digitalWrite(25, LOW);
+digitalWrite(26, LOW);
+digitalWrite(27, HIGH);
+        
+        
+        
+        
+        
+        </field>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="2B89{^A--sk{[N}(hD*!" x="-348" y="1483">
+    <field name="NAME">white_on</field>
+    <comment pinned="false" h="80" w="160">Describe this function...</comment>
+    <statement name="STACK">
+      <block type="RGB_color" id="i}x.g6R+SKc]r(ES_3a3">
+        <field name="NAME">digitalWrite(25, HIGH);
+digitalWrite(26, HIGH);
+digitalWrite(27, HIGH);
+        
+        
+        
+        
+        
+        </field>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="^u]ez(1y_JxAqLf0qQ}i" x="-341" y="1553">
+    <field name="NAME">led_off</field>
+    <comment pinned="false" h="80" w="160">Describe this function...</comment>
+    <statement name="STACK">
+      <block type="RGB_color" id="C1/NrUKZewi1rMdIVs1Z">
+        <field name="NAME">digitalWrite(25, LOW);
+digitalWrite(26, LOW);
+digitalWrite(27, LOW);
+        
+        
+        
+        
+        
+        </field>
+      </block>
+    </statement>
+  </block>
+</xml>
